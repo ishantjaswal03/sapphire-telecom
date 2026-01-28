@@ -32,7 +32,7 @@ export function Footer() {
                         </div>
 
                         {/* Quick Links */}
-                        <div className="md:text-center">
+                        <div>
                             <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Quick Links</h3>
                             <ul className="space-y-3">
                                 <li>
@@ -72,7 +72,7 @@ export function Footer() {
 
 
                         {/* Contact */}
-                        <div className="md:text-right">
+                        <div>
                             <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Contact Us</h3>
                             <div className="space-y-4">
                                 <div className="text-sm text-blue-50">
@@ -80,7 +80,7 @@ export function Footer() {
                                     <p>11798 SW 57th CT</p>
                                     <p>COOPER CITY, FL 33330</p>
                                 </div>
-                                <div className="text-sm text-blue-50 space-y-1">
+                                <div className="text-sm text-blue-50 space-y-1 break-all">
                                     <p>Info/HR: <a href="mailto:infohr@sapphiretelecomconsulting.com" className="hover:text-white transition-colors">infohr@sapphiretelecomconsulting.com</a></p>
                                     <p>Accounts: <a href="mailto:accounts@sapphiretelecomconsulting.com" className="hover:text-white transition-colors">accounts@sapphiretelecomconsulting.com</a></p>
                                 </div>
