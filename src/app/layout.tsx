@@ -9,9 +9,6 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: "Sapphire Telecom Consulting",
   description: "Modern solutions for telecom operators, MVNOs, and enterprises.",
-  icons: {
-    icon: "/logo.png",
-  },
 };
 
 import { GlobalTouchEffect } from "@/components/ui/GlobalTouchEffect";
