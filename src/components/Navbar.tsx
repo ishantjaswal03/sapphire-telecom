@@ -41,7 +41,7 @@ const navItems: NavItem[] = [
     },
     {
         name: "Email Us",
-        href: "mailto:ishantjaswal03@gmail.com",
+        href: "mailto:infohr@sapphiretelecomconsulting.com",
         className: "px-6 py-2 rounded-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white hover:text-white shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 border-none"
     },
 ]

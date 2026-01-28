@@ -469,7 +469,7 @@ export default function MvnoPage() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Button asChild size="lg" className="h-14 px-10 text-lg rounded-full shadow-lg shadow-blue-500/20 bg-blue-600 hover:bg-blue-500 text-white">
-                            <Link href="mailto:ishantjaswal03@gmail.com">Email Us</Link>
+                            <Link href="mailto:infohr@sapphiretelecomconsulting.com">Email Us</Link>
                         </Button>
                     </div>
                 </div>
@@ -478,7 +478,7 @@ export default function MvnoPage() {
             {/* Mobile Sticky CTA */}
             <div className="fixed bottom-0 left-0 right-0 p-4 bg-white/80 backdrop-blur-lg border-t border-slate-200 md:hidden z-50">
                 <Button asChild className="w-full h-12 rounded-full font-bold shadow-lg bg-blue-600 text-white hover:bg-blue-500">
-                    <Link href="mailto:ishantjaswal03@gmail.com">Email Us</Link>
+                    <Link href="mailto:infohr@sapphiretelecomconsulting.com">Email Us</Link>
                 </Button>
             </div>
 

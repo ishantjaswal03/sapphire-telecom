@@ -72,7 +72,7 @@ export function Hero() {
                         className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
                     >
                         <Button asChild size="lg" className="h-12 px-8 text-base bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/25 rounded-full">
-                            <a href="mailto:ishantjaswal03@gmail.com">
+                            <a href="mailto:infohr@sapphiretelecomconsulting.com">
                                 Schedule Consultation <ArrowRight className="ml-2 h-4 w-4" />
                             </a>
                         </Button>
