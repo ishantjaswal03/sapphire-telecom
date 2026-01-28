@@ -107,7 +107,7 @@ export function Navbar() {
                     </div>
 
                     {/* Right-Aligned Desktop Nav */}
-                    <nav className="hidden md:flex items-center gap-10">
+                    <nav className="hidden lg:flex items-center gap-10">
                         {navItems.map((item, index) => (
                             <div key={item.name} className="relative group">
                                 {item.children ? (
@@ -164,7 +164,7 @@ export function Navbar() {
                     </nav>
 
                     {/* Mobile Menu Toggle (Right aligned) */}
-                    <div className="md:hidden">
+                    <div className="lg:hidden">
                         <MobileMenuIcon
                             isOpen={isOpen}
                             onClick={() => setIsOpen(!isOpen)}
