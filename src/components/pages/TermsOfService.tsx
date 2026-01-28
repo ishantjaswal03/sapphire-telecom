@@ -141,6 +141,33 @@ export function TermsOfService() {
                             </p>
                         </TermSection>
 
+                        <TermSection icon={<FileText className="w-6 h-6 text-indigo-500" />} title="14. Contact Information">
+                            <div className="space-y-4">
+                                <p>
+                                    If you have any questions about these Terms, please contact us at:
+                                </p>
+                                <div>
+                                    <p className="font-semibold">Sapphire Telecom Consulting</p>
+                                    <p>11798 SW 57th CT</p>
+                                    <p>COOPER CITY, FL 33330</p>
+                                </div>
+                                <div className="space-y-1">
+                                    <p>
+                                        <span className="font-semibold">Email (Info/HR):</span>
+                                        <a href="mailto:infohr@sapphiretelecomconsulting.com" className="text-blue-600 hover:text-blue-800 font-medium ml-2 transition-colors">
+                                            infohr@sapphiretelecomconsulting.com
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <span className="font-semibold">Email (Accounts):</span>
+                                        <a href="mailto:accounts@sapphiretelecomconsulting.com" className="text-blue-600 hover:text-blue-800 font-medium ml-2 transition-colors">
+                                            accounts@sapphiretelecomconsulting.com
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </TermSection>
+
                     </div>
                 </div>
             </div>

@@ -122,7 +122,7 @@ export function PrivacyPolicy() {
                                 <li><strong>California (CCPA/CPRA):</strong> You may request disclosure, correction, deletion, and opt-out of sale/share of personal information. We do not sell personal information as defined by CCPA/CPRA.</li>
                             </ul>
                             <p className="mt-4">
-                                To exercise rights, email us at <a href="mailto:ishantjaswal03@gmail.com" className="text-blue-600 hover:text-blue-800 font-medium ml-1 transition-colors">ishantjaswal03@gmail.com</a>.
+                                To exercise rights, email us at <a href="mailto:infohr@sapphiretelecomconsulting.com" className="text-blue-600 hover:text-blue-800 font-medium ml-1 transition-colors">infohr@sapphiretelecomconsulting.com</a>.
                             </p>
                         </PrivacySection>
 
@@ -145,11 +145,30 @@ export function PrivacyPolicy() {
                         </PrivacySection>
 
                         <PrivacySection icon={<FileText className="w-6 h-6 text-indigo-500" />} title="14. Contact Us">
-                            <p>
-                                Questions or requests? Email
-                                <a href="mailto:ishantjaswal03@gmail.com" className="text-blue-600 hover:text-blue-800 font-medium ml-1 transition-colors"> ishantjaswal03@gmail.com </a>
-                                or write to: 2125 Biscayne Blvd, Miami, FL 33137, USA.
-                            </p>
+                            <div className="space-y-4">
+                                <p>
+                                    Questions or requests? You can reach us at:
+                                </p>
+                                <div>
+                                    <p className="font-semibold">Sapphire Telecom Consulting</p>
+                                    <p>11798 SW 57th CT</p>
+                                    <p>COOPER CITY, FL 33330</p>
+                                </div>
+                                <div className="space-y-1">
+                                    <p>
+                                        <span className="font-semibold">Email (Info/HR):</span>
+                                        <a href="mailto:infohr@sapphiretelecomconsulting.com" className="text-blue-600 hover:text-blue-800 font-medium ml-2 transition-colors">
+                                            infohr@sapphiretelecomconsulting.com
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <span className="font-semibold">Email (Accounts):</span>
+                                        <a href="mailto:accounts@sapphiretelecomconsulting.com" className="text-blue-600 hover:text-blue-800 font-medium ml-2 transition-colors">
+                                            accounts@sapphiretelecomconsulting.com
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
                         </PrivacySection>
 
                     </div>

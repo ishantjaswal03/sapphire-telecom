@@ -79,7 +79,7 @@ export function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <a href="mailto:ishantjaswal03@gmail.com" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <a href="mailto:infohr@sapphiretelecomconsulting.com" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         Contact
                                     </a>
                                 </li>
@@ -88,20 +88,31 @@ export function Footer() {
 
                         {/* Contact */}
                         <div>
-                            <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Connect</h3>
-                            <div className="flex space-x-4">
-                                <a href="#" className="text-blue-50 hover:text-white transition-colors">
-                                    <span className="sr-only">LinkedIn</span>
-                                    <Linkedin className="h-5 w-5" />
-                                </a>
-                                <a href="#" className="text-blue-50 hover:text-white transition-colors">
-                                    <span className="sr-only">Twitter</span>
-                                    <Twitter className="h-5 w-5" />
-                                </a>
-                                <a href="#" className="text-blue-50 hover:text-white transition-colors">
-                                    <span className="sr-only">Facebook</span>
-                                    <Facebook className="h-5 w-5" />
-                                </a>
+                            <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Contact Us</h3>
+                            <div className="space-y-4">
+                                <div className="text-sm text-blue-50">
+                                    <p className="font-semibold">Sapphire Telecom Consulting</p>
+                                    <p>11798 SW 57th CT</p>
+                                    <p>COOPER CITY, FL 33330</p>
+                                </div>
+                                <div className="text-sm text-blue-50 space-y-1">
+                                    <p>Info/HR: <a href="mailto:infohr@sapphiretelecomconsulting.com" className="hover:text-white transition-colors">infohr@sapphiretelecomconsulting.com</a></p>
+                                    <p>Accounts: <a href="mailto:accounts@sapphiretelecomconsulting.com" className="hover:text-white transition-colors">accounts@sapphiretelecomconsulting.com</a></p>
+                                </div>
+                                <div className="flex space-x-4 pt-2">
+                                    <a href="#" className="text-blue-50 hover:text-white transition-colors">
+                                        <span className="sr-only">LinkedIn</span>
+                                        <Linkedin className="h-5 w-5" />
+                                    </a>
+                                    <a href="#" className="text-blue-50 hover:text-white transition-colors">
+                                        <span className="sr-only">Twitter</span>
+                                        <Twitter className="h-5 w-5" />
+                                    </a>
+                                    <a href="#" className="text-blue-50 hover:text-white transition-colors">
+                                        <span className="sr-only">Facebook</span>
+                                        <Facebook className="h-5 w-5" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
