@@ -36,32 +36,32 @@ export function Footer() {
                             <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Quick Links</h3>
                             <ul className="space-y-3">
                                 <li>
-                                    <a href="/#solutions/bss-oss" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <a href="#solutions/bss-oss" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         BSS & OSS
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/#solutions/cpq" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <a href="#solutions/cpq" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         CPQ
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/#solutions/billing" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <a href="#solutions/billing" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         Billing
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/#solutions/mvno" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <a href="#solutions/mvno" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         MVNO
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/#solutions/ran" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <a href="#solutions/ran" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         RAN
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/#solutions/saas-payment" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <a href="#solutions/saas-payment" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         SaaS & Payment
                                     </a>
                                 </li>

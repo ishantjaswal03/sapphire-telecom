@@ -157,7 +157,7 @@ export default function MvnoPage() {
                     "Real-Time Policy Control",
                     "Multi-Network Integration"
                 ]}
-                centralImage="/images/mvno-core.PNG"
+                centralImage="/images/mvno-core.png"
                 centralImageAlt="Digital MVNO Core"
                 orbitingItems={[
                     { title: "Subscriber App", desc: "Self-care made simple." },

@@ -1,9 +1,12 @@
-import MainRouter from "@/components/MainRouter";
+import HomePage from "@/components/pages/HomePage";
 
 export default function Home() {
   return (
     <main>
-      <MainRouter />
+      <HomePage />
     </main>
+  );
+}
+    </main >
   );
 }

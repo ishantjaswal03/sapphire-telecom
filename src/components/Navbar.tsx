@@ -21,22 +21,22 @@ type NavItem = {
 const navItems: NavItem[] = [
     {
         name: "Solutions",
-        href: "#solutions",
+        href: "/#solutions",
         children: [
-            { name: "BSS & OSS", href: "#solutions/bss-oss", icon: Network },
-            { name: "CPQ", href: "#solutions/cpq", icon: Calculator },
-            { name: "Billing", href: "#solutions/billing", icon: Receipt },
-            { name: "MVNO", href: "#solutions/mvno", icon: Smartphone },
-            { name: "RAN", href: "#solutions/ran", icon: RadioTower },
-            { name: "SaaS & Payment", href: "#solutions/saas-payment", icon: CreditCard },
+            { name: "BSS & OSS", href: "/solutions/bss-oss", icon: Network },
+            { name: "CPQ", href: "/solutions/cpq", icon: Calculator },
+            { name: "Billing", href: "/solutions/billing", icon: Receipt },
+            { name: "MVNO", href: "/solutions/mvno", icon: Smartphone },
+            { name: "RAN", href: "/solutions/ran", icon: RadioTower },
+            { name: "SaaS & Payment", href: "/solutions/saas-payment", icon: CreditCard },
         ]
     },
     {
         name: "Company",
-        href: "#company",
+        href: "/#company",
         children: [
-            { name: "Privacy Policy", href: "#privacy-policy", icon: Shield },
-            { name: "Terms of Service", href: "#terms-of-service", icon: FileText },
+            { name: "Privacy Policy", href: "/privacy-policy", icon: Shield },
+            { name: "Terms of Service", href: "/terms-of-service", icon: FileText },
         ]
     },
     {
@@ -100,9 +100,9 @@ export function Navbar() {
                                 className="object-contain"
                             />
                         </div>
-                        <a href="#/" className="text-xl font-bold tracking-tight text-foreground">
+                        <Link href="/" className="text-xl font-bold tracking-tight text-foreground">
                             Sapphire Telecom Consulting
-                        </a>
+                        </Link>
                     </div>
 
                     {/* Right-Aligned Desktop Nav */}
@@ -123,7 +123,7 @@ export function Navbar() {
                                         <div className="absolute top-full right-0 pt-4 w-72 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
                                             <div className="bg-white/90 backdrop-blur-2xl border border-slate-200/50 rounded-2xl shadow-xl overflow-hidden p-2 flex flex-col gap-1">
                                                 {item.children.map((child) => (
-                                                    <a
+                                                    <Link
                                                         key={child.href}
                                                         href={child.href}
                                                         className="flex items-center gap-3 px-4 py-3 text-sm font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-xl transition-colors text-left group/item"
@@ -132,13 +132,13 @@ export function Navbar() {
                                                             {child.icon && <child.icon className="h-4 w-4" />}
                                                         </div>
                                                         {child.name}
-                                                    </a>
+                                                    </Link>
                                                 ))}
                                             </div>
                                         </div>
                                     </>
                                 ) : item.href ? (
-                                    <a
+                                    <Link
                                         href={item.href}
                                         className={cn(
                                             "hoverable text-sm font-bold uppercase tracking-widest text-foreground/80 hover:text-primary transition-colors bounce",
@@ -147,7 +147,7 @@ export function Navbar() {
                                         style={{ animationDelay: `${index * 0.1}s` }}
                                     >
                                         {item.name}
-                                    </a>
+                                    </Link>
                                 ) : (
                                     <span
                                         className={cn(
