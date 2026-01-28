@@ -94,9 +94,9 @@ export default function SaasPaymentPage() {
                         animate={{ opacity: 1, y: 0 }}
                         className="mb-8"
                     >
-                        <a href="#expertise" className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-500 transition-colors">
+                        <Link href="/#solutions" className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-500 transition-colors">
                             <ArrowLeft className="mr-2 h-4 w-4" /> Back to Capabilities
-                        </a>
+                        </Link>
                     </motion.div>
 
                     <div className="max-w-4xl">

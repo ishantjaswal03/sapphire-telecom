@@ -36,34 +36,34 @@ export function Footer() {
                             <h3 className="text-sm font-semibold text-white tracking-wider uppercase mb-4">Quick Links</h3>
                             <ul className="space-y-3">
                                 <li>
-                                    <a href="#solutions/bss-oss" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <Link href="/solutions/bss-oss" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         BSS & OSS
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#solutions/cpq" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <Link href="/solutions/cpq" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         CPQ
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#solutions/billing" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <Link href="/solutions/billing" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         Billing
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#solutions/mvno" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <Link href="/solutions/mvno" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         MVNO
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#solutions/ran" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <Link href="/solutions/ran" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         RAN
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#solutions/saas-payment" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <Link href="/solutions/saas-payment" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         SaaS & Payment
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -74,9 +74,9 @@ export function Footer() {
                             <ul className="space-y-3">
 
                                 <li>
-                                    <a href="#company" className="text-sm text-blue-50 hover:text-white transition-colors">
+                                    <Link href="/#company" className="text-sm text-blue-50 hover:text-white transition-colors">
                                         About Us
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <a href="mailto:ishantjaswal03@gmail.com" className="text-sm text-blue-50 hover:text-white transition-colors">
@@ -110,8 +110,8 @@ export function Footer() {
                             &copy; {new Date().getFullYear()} Sapphire Telecom Consulting. All rights reserved.
                         </p>
                         <div className="flex items-center gap-6 text-sm">
-                            <a href="/#privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>
-                            <a href="/#terms-of-service" className="hover:text-white transition-colors">Terms of Service</a>
+                            <Link href="/#privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+                            <Link href="/#terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
                         </div>
                     </div>
                 </div>

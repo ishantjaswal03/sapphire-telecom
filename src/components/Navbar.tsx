@@ -92,11 +92,12 @@ export function Navbar() {
                 <div className="container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8">
                     {/* Logo - Restored Premium Icon */}
                     <div className="flex items-center gap-3">
-                        <div className="relative h-12 w-12">
+                        <div className="relative h-10 w-10">
                             <Image
                                 src={logo}
                                 alt="Sapphire Telecom"
-                                fill
+                                width={40}
+                                height={40}
                                 className="object-contain"
                             />
                         </div>

@@ -135,9 +135,9 @@ export function Expertise() {
                                 </CardContent>
                                 <CardFooter className="pt-0">
                                     <Button asChild variant="ghost" className="w-full justify-between hover:bg-primary/5 hover:text-primary group-hover:pl-6 transition-all">
-                                        <a href={`#solutions/${solution.id}`}>
+                                        <Link href={`/solutions/${solution.id}`} className="flex items-center">
                                             Read More <ArrowRight className="ml-2 h-4 w-4" />
-                                        </a>
+                                        </Link>
                                     </Button>
                                 </CardFooter>
                             </Card>
